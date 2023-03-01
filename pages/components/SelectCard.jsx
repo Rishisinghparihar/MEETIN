@@ -40,7 +40,7 @@ const SelectCard = () => {
     const teacherinfo = await JSON.parse(localStorage.getItem("teacher-info"));
     console.log(teacherinfo);
     try{
-      
+    console.log(teacherinfo._id)  
     const data = await fetch(`/api/${teacherinfo._id}`,{
       method:"PUT",
       headers:{
@@ -58,7 +58,7 @@ const SelectCard = () => {
       progress: undefined,
       theme: "dark",
     });
-    router.push("/teacher/teacherprofile")
+    // router.push("/teacher/teacherprofile")
   }catch(error){
     toast.error("Category Cannnot Be Added, Please Try Again Later", {
       position: "bottom-center",

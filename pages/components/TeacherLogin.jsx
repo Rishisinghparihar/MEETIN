@@ -4,7 +4,6 @@ import "react-toastify/dist/ReactToastify.css";
 import { useRouter } from "next/router";
 
 const TeacherLogin = () => {
-  const [loading, setLoading] = useState(false);
   const [show, setShow] = useState("password");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -128,10 +127,10 @@ const TeacherLogin = () => {
                     onClick={handleShow}
                   >
                     <i
-                      className={`text-green-400 transition-all duration-300 ${
+                      className={`text-green-400 ${
                         show === "password"
                           ? "fa-solid fa-eye"
-                          : "fa-solid fa-eye-slash"
+                          : "fa-solid fa-eye-slash transition-all duration-1000"
                       } `}
                     ></i>
                   </div>
@@ -146,7 +145,7 @@ const TeacherLogin = () => {
             <button
               onClick={submitHandler}
               type="submit"
-              className="font-bold font-Garamond text-lg text-black border-2 border-green-700 uppercase rounded cursor-pointer hover:bg-green-300 hover:text-green-500 transition-all duration-300 dark:text-white bg-transparent p-2 px-5"
+              className="font-bold font-Crimson text-lg text-white bg-green-400 uppercase rounded cursor-pointer hover:bg-green-300 hover:shadow-3xl hover:text-green-500 transition-all duration-700 dark:text-white bg-transparent p-2 px-5 dark:bg-green-700 dark:hover:bg-green-900"
             >
               login
             </button>

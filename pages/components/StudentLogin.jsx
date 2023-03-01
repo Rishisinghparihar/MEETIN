@@ -67,7 +67,7 @@ const StudentLogin = () => {
         <div className="mt-12 flex justify-evenly items-center">
           <button
             type="submit"
-            className="font-bold font-Garamond text-lg text-black border-2 border-blue-700 uppercase rounded cursor-pointer hover:bg-blue-300 hover:text-blue-500 transition-all duration-300 dark:text-white bg-transparent p-2 px-5"
+            className="font-bold font-Crimson text-lg text-white bg-blue-400 uppercase rounded cursor-pointer hover:bg-blue-300 hover:shadow-3xl hover:text-blue-500 transition-all duration-700 dark:text-white bg-transparent p-2 px-5 dark:bg-blue-700 dark:hover:bg-blue-900"
           >
             login
           </button>

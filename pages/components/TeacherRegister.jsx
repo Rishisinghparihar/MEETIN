@@ -340,7 +340,7 @@ const TeacherRegister = () => {
               <button
                 type="submit"
                 onClick={submitHandler}
-                className="font-bold font-Garamond text-lg text-black border-2 border-green-700 uppercase rounded cursor-pointer hover:bg-green-300 hover:text-green-500 transition-all duration-300 dark:text-white bg-transparent p-2 px-5"
+                className="font-bold font-Crimson text-lg text-white bg-green-400 uppercase rounded cursor-pointer hover:bg-green-300 hover:shadow-3xl hover:text-green-500 transition-all duration-700 dark:text-white bg-transparent p-2 px-5 dark:bg-green-700 dark:hover:bg-green-900"
               >
                 {loading ? <img src="/loader.gif" className="w-[20px] h-[20px]"/> : "ReGister" }
               </button>
