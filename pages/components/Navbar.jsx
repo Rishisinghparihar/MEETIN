@@ -13,7 +13,7 @@ const Navbar = () => {
           <Link href={"/"}>
             <div className=" flex text-lg font-bold uppercase">
               <Image src="/images/logo.png" alt="..." height={64} width={64}/>
-              <p className="pt-4 dark:text-white"> MEET-IN</p>
+              <p className="pt-4 dark:text-white"> GURU-COOL</p>
             </div>
           </Link>
           <input
@@ -31,7 +31,7 @@ const Navbar = () => {
           </label>
 
           <div className="translate-y-full peer-checked:translate-y-0 -mr-[35rem] lg:translate-y-0 inset-0 fixed lg:static pt-20 lg:pt-0 bg-white lg:bg-transparent -z-10 lg:z-10 lg:h-auto transition-all duration-300 ease-in-out ">
-            <div className="bg-white shadow-md lg:bg-transparent lg:shadow-none py-10 lg:py-0 flex flex-col lg:items-center lg:flex-row px-6 space-y-4 lg:space-y-0 lg:space-x-12">
+            <div className="bg-white shadow-md lg:bg-transparent lg:shadow-none py-10 lg:py-0 ml-[6rem] flex flex-col lg:items-center lg:flex-row px-6 space-y-4 lg:space-y-0 lg:space-x-12">
               <Link legacyBehavior href={"/"}>
                 <a
                   className={

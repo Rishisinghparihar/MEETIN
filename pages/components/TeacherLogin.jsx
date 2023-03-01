@@ -83,8 +83,8 @@ const TeacherLogin = () => {
     pauseOnFocusLoss
     theme="light"
   />
-    <div className="flex justify-center items-center transition-all duration-1000 ">
-      <div className="rounded-md p-10  shadow-lg dark:bg-green-900 mt-4 bg-green-100">
+    <div className="flex justify-center pt-[5rem] items-center transition-all duration-1000 ">
+      <div className="rounded-md p-[3.5rem]  shadow-lg dark:bg-green-900 mt-4 bg-green-100">
         <form
           method="post"
           className="flex flex-col"

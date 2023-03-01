@@ -15,8 +15,8 @@ const StudentLogin = () => {
     }
   }
   return (
-    <div className="flex justify-center items-center transition-all duration-1000 ">
-    <div className="rounded-md p-10  shadow-lg dark:bg-blue-900 mt-4 bg-blue-100">
+    <div className="flex justify-center pt-[5rem] items-center transition-all duration-1000 ">
+    <div className="rounded-md p-[3.5rem]  shadow-lg dark:bg-blue-900 mt-4 bg-blue-100">
       <form
         method="post"
         className="flex flex-col"
