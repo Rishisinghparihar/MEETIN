@@ -12,13 +12,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center p-1 px-6 lg:px-0 container mx-auto">
           <Link href={"/"}>
             <div className=" flex text-lg font-bold uppercase">
-<<<<<<< HEAD
-              <Image src="/images/logo.png" alt="..." height={64} width={64}/>
-              <p className="pt-4 dark:text-white"> GURU-COOL</p>
-=======
               <Image src="/images/logo.png" alt="..." height={50} width={50} className="dark:invert"/>
               <p className="pt-4 dark:text-white pl-4"> GURU COOL</p>
->>>>>>> 41537e571f66ba17ab2404a4017093443e58fc17
             </div>
           </Link>
           <input
